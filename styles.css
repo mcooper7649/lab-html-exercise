@@ -1,206 +1,278 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-
-
-body {
-    background-color: #ffffff;
-    font-family: 'Poppins';
-    font-weight: bold;
-  }
-
-  header > div {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-  }
-  
-  nav {
-    width: 600px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    /* padding-top: 15px; */
+    height: 100px;
+    
   }
   
   nav a {
+    color: rgba(255,255,255,0.8);
     text-decoration: none;
-    color: black;
-  }
-  
-  .blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-  }
-
-  .logo {
-    width: 60px;
-    margin-right: 1rem;
-    padding: 0;
-  }
-
-  #search {
-    width: 60px;
-    margin-right: 1rem;
-    padding: 0;
-  }
-
-  .myform label{
-      rgba (0,0,0,0.5);
-  }
-  .myform input {
-    background: url("images/magnifying-glass.png") no-repeat scroll 7px 7px;
-  }
-
-  .myform button {
-      background-color: #fb3e44;
-      color: white;
-  }
-
-  #join-button {
-      border: black;
-  }
-
-  .join-div a {
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    }
-
-    #see-plans {
-      background-color: rgba(232,217,217,.3);
-      height: 600px;
-
-    }
-
-
-
-    .npm-article {
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .see-join {
-        
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .open-source {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        height: 600px;
-    }
-
-    #hexagon {
-        width: 25%;
-        height: 25%;
-        display: flex;
-        justify-content: center;
-    }
     
-    .bat-heading {
-        font-size: 5.5em;
-        display: flex;
-        justify-content: center;
-    }
+  }
 
-    #button-sp {
-        background-color: #FB3B49;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        margin: 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-      }
-    
-      #button-jf {
-        background-color: white;
-        border: none;
-        color: black;
-        padding: 15px 32px;
-        margin: 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
-
-      #thebest {
-          background-color: rgba(255,204,53,.4);
-          transform: skew(9deg,0deg);
-          font-style: italic;
-      }
-
-      .npm-article {
-          margin-left: 39%;
-          margin-right: 39%;
-          text-align: center;
-      }
-
-      .npm-article1 {
-        margin-left: 30%;
-        margin-right: 30%;
-        text-align: center;
-    }
-
-      .mybox {
-          display: flex;
-          padding: 2%;
-          }
-       .box1 {
-           padding: 1%;
-       }   
-
-      .mybox img {
-          height: 15%;
-      }
-
-      .mybox h1 {
-          color: #ED1C24;
-          align-self: auto;
-      }
-
-      .description {
-          padding-bottom: 10%;
-          padding-top: 4%;
-      }
-
-      
-
-      section .btm-img {
-          width: 10%;
-
-      }
-
-      #last-div {
-        padding: 70px 0;
-        display: flex;
-        justify-content: center;
-      }
-
-      #button-org {
-        box-shadow: 8px 8px 0 rgba(128,83,35,.2);
-        color: white;
-        background-color: black;
-        text-decoration: none;
-        padding: 15px 85px;
-        
-      }
-      
+  body {
+    margin: 0;
+  }
 
   
+
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    align-self: auto;
+  }
+
+  .search-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+  }
+  
+  .search-button {
+    display: flex;
+    float: right;
+  }
+
+  .bat-div {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    flex-direction: column;
+  }
+
+  header {
+    height: 600px;
+    color: white;
+    background-image: url("images/city-scape.svg");
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .npm-logo {
+    height: 10%;
+    width: 10%;
+  }
+
+  .searchbar {
+    background: rgb(32, 101, 136);
+    height: 25px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .myform input{
+    display: flex;
+    margin: 0 auto;
+    height: 45px;
+    width: 1000px;
+  }
+
+  .bat-header {
+    margin: 0 0 25px;
+    display: flex;
+  }
+
+  .bat-p {
+    width: 600px;
+    font-size: 1.3em;
+  }
+  
+
+  .bat-div h1 {
+    font-size: 3rem;
+  }
+
+
+  #top-section {
+    background-color: rgb(39, 53, 71);
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+
+
+  #mid-section {
+    height: 600px;
+    background-image: url("images/forklift.svg");
+  }
+
+  h1 {
+    margin: 0 auto;
+    color: white;
+  }
+  body > header > div.search-div > button  {
+    height: 45px;
+    width:  50px;
+    background: rgb(32, 101, 136);
+    color: white;
+  }
+
+  body > header > div.search-div > button > img {
+    height: 45px;
+    width:  50px;
+    color: white;
+  }
+
+  .bear-logo {
+    height: 45px; 
+  }
+
+  #sign-up-btn {
+    background-color: rgb(240, 146, 51);
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 145px;
+    border-radius: 1.5em;
+  }
+
+
+  .top-wrapper {
+    display: flex;
+    padding-top: 200px;
+    flex-direction: row;
+    margin: 0 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+  .collab-div {
+    display: flex;
+  }
+
+
+  #sign-orgs-btn {
+    background-color: rgb(203, 56, 55);
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 1.5em;
+  }
+
+  .top-header {
+    width: 70%;
+    align-self: left;
+  }
+
+  .npm-list li {
+    padding: 2px;
+  }
+
+  .mid-header {
+    display: flex;
+    font-size: 3rem;
+  }
+   .p-header {
+    display: flex;
+    padding: 10px 0 0 10px;
+    font-size: 1.2rem;
+    width: 425px;
+    
+   } 
+
+   .install-btn {
+    
+    background-color: rgb(49, 68, 88);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 700px;
+    border-radius: 1.5em;
+    margin-top: 15px;
+   }
+
+  .mid-div {
+    color: white;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-left: 250px;
+  }
+
+  .bot-header {
+    color: black;
+    font-size: 2.0rem;
+    }
+
+  .bot-p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+
+  .bot-div {
+    padding-top: 90px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    
+  }
+
+.mybox {
+  display: flex;
+  padding: 2%;
+  }
+
+.box1 {
+  display: flex;
+  padding: 1%;
+  margin: 0 auto;
+  flex-direction: column;
+  
+  
+ }   
+ .mybox img {
+   display: flex;
+   justify-content: center;
+   margin: 5%;
+   align-self: center;
+
+ }
+
+.mybox h1 {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.description {
+    padding-bottom: 10%;
+    padding-top: 4%;
+}
+
+
+
+section .btm-img {
+    width: 172px;
+
+}
+  
+    
 
   
